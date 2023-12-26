@@ -110,7 +110,7 @@ body {
 }
 
 .btn-all:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: #7878AB;
     border-color: #7878AB;
 }
@@ -159,46 +159,6 @@ body {
 
 .bottom-img {
     width: 100%;
-}
-
-/*---------about section---------*/
-#about{
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    min-height: 100vh;
-}
-
-.selfpic {
-    width: 300px;
-    height: 300px;
-    border-top-right-radius: 30%;
-    border-bottom-left-radius: 30%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(assests/me.jpg);
-    background-size: cover;
-    filter: grayscale(1);
-    transition: all 1s ease;
-    border: 5px solid #333333;
-    transition: all 0.3s ease;
-}
-
-.selfpic:hover {
-    border-color: #7878AB;
-    filter: none;
-}
-
-.selfdesc{
-    color: #333333;
-    font-size: 1.1em;
-    line-height: 1.6;
-    padding: 20px;
-    text-align: justify;
 }
 
 /*---------portfolio section---------*/
@@ -252,5 +212,45 @@ body {
     font-size: 1.1em;
     line-height: 1.6;
     padding: 10px;
+    text-align: justify;
+}
+
+/*---------about section---------*/
+#about{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.selfpic {
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(assests/me.jpg);
+    background-size: cover;
+    filter: grayscale(1);
+    transition: all 1s ease;
+    border: 5px solid #333333;
+    transition: all 0.3s ease;
+}
+
+.selfpic:hover {
+    border-color: #7878AB;
+    filter: none;
+}
+
+.selfdesc{
+    color: #333333;
+    font-size: 1.1em;
+    line-height: 1.6;
+    padding: 20px;
     text-align: justify;
 }

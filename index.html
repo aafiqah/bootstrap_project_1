@@ -41,7 +41,7 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <button type="button" class="btn btn-all">Resume</button>
+              <a href="/" class="btn btn-all">Resume</a>
             </li>
           </ul>
         </div>
@@ -54,10 +54,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <h2>Hi! my name is</h2>
+          <h2>Hi👋 my name is</h2>
           <h1>Alessa Johar</h1>
           <h2>I love exploring new things!</h2>
-          <button type="button" class="btn btn-email">Get In Touch</button>
+          <a href="mailto:alessajohar@gmail.com" class="btn btn-email">Get In Touch</a>
         </div>
       </div>
     </div>
@@ -112,72 +112,101 @@
                 <img src="https://img.shields.io/badge/phpMyAdmin-4479A1?style=for-the-badge&logo=phpmyadmin&logoColor=white" alt="phpMyAdmin"/>
                 <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
               </p>
-              <button type="button" class="btn btn-all">Github</button>
-              <button type="button" class="btn btn-all">Demo Video</button>
+              <a href="https://github.com/aafiqah/class_attendance" class="btn btn-all">Github</a>
+              <a href="https://www.youtube.com/embed/uP9MlDTOUzs" class="btn btn-all">Demo Video</a>
             </div>
           </div>            
         </div>
         <div id="facemaskdetection">
           <h2 class="portfolio-title text-center">Face Mask Detection and Alert Message System</h2>
-          <div class="portfolio-carousel">
-            <div id="carouselfacemask" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselfacemask" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselfacemask" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="assests/facemaskdetection2.jpg" class="d-block w-100" alt="...">
+          <div class="row portfolio-container">
+            <div class="portfolio-carousel">
+              <div id="carouselfacemask" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselfacemask" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselfacemask" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
                 </div>
-                <div class="carousel-item">
-                  <img src="assests/facemaskdetection.png" class="d-block w-100" alt="...">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assests/facemaskdetection2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assests/facemaskdetection.png" class="d-block w-100" alt="...">
+                  </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselfacemask"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselfacemask"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselfacemask"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselfacemask"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+            </div>
+            <div class="portfolio-desc">
+              <p>Face Mask Detection is a desktop application built with Python and using Tensorflow machine learning. This project was created in 1 month in an agile team of 4 for a digital image processing subject.</p>
+              <p>Technologies: 
+                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"  />
+                <img src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white" alt="Pycharm"  />            
+                <img src="https://img.shields.io/badge/Qt%20Designer-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" alt="QT5"  />            
+                <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Tensorflow" />            
+                <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+              </p>
+              <a href="https://github.com/aafiqah/face_mask_detection" class="btn btn-all">Github</a>
+              <a href="https://www.youtube.com/embed/cEa_2xrp7Aw" class="btn btn-all">Demo Video</a>
+              <a href="https://drive.google.com/file/d/1PpcMZZpGd4cboIzaCSE2zDD88L3bjVUX/view?usp=sharing" class="btn btn-all">EXE File</a>
             </div>
           </div>
         </div>
         <div id="medicinehalal">
           <h2 class="portfolio-title text-center">Advanced Medicine Halal Verification App</h2>
-          <div class="portfolio-carousel">
-            <div id="carouselmedicinehalal" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselmedicinehalal" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselmedicinehalal" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="assests/medicine-halal-1.jpg" class="d-block w-100" alt="...">
+          <div class="row portfolio-container">
+            <div class="portfolio-carousel">
+              <div id="carouselmedicinehalal" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselmedicinehalal" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselmedicinehalal" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
                 </div>
-                <div class="carousel-item">
-                  <img src="assests/medicine-halal-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assests/medicine-halal-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assests/medicine-halal-2.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselmedicinehalal"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselmedicinehalal"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselmedicinehalal"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselmedicinehalal"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
-          </div>
+            <div class="portfolio-desc">
+              <p>Medicine Halal or known as Advanced Medicine Halal Verification is a cross-platform Android application that allows users to easily detect halal medicine, access registration status, and report any issues, fostering a safer and more transparent healthcare environment. This app was created solo in 9 months for a Bachelor final year project (fyp).</p>
+              <p>Technologies: 
+                <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"  />  
+                <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" alt="Firebase"  />
+                <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio"  />
+                <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"  />
+              </p>
+              <a href="https://github.com/aafiqah/advanced_medicine_halal" class="btn btn-all">Github</a>
+              <a href="https://www.youtube.com/embed/mvzK-22mIq4" class="btn btn-all">Demo Video</a>
+              <a href="https://drive.google.com/file/d/1wBMtNKnuHmivdIKBGuZAuV6-Dz_YCaeE/view?usp=sharing" class="btn btn-all">APK File</a>
+            </div>
+          </div>          
         </div>
       </div>
     </div>
